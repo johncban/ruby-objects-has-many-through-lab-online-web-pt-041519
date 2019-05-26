@@ -23,7 +23,7 @@ class Doctor
   end
 
   def patients
-    appointment.collect(&:patient) # https://stackoverflow.com/questions/9429819/what-is-the-functionality-of-operator-in-ruby
+    appointments.collect(&:patient) # https://stackoverflow.com/questions/9429819/what-is-the-functionality-of-operator-in-ruby
   end
 
 end
