@@ -23,6 +23,6 @@ class Patient
   end
 
   def doctors
-    appointments.map(&:doctor)
+    appointments.map(&:doctor) # https://stackoverflow.com/questions/9429819/what-is-the-functionality-of-operator-in-ruby
   end
 end
